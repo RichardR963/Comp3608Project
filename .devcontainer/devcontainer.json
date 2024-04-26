@@ -4,11 +4,10 @@
         "dockerfile": "Dockerfile",
         "args": { "VARIANT": "3" }
     },
-
+    "postCreateCommand": "pip install -r requirements.txt",
     "customizations": {
         "vscode": {
             "extensions": [
-                // python
                 "ms-python.python",
                 "ms-toolsai.jupyter"
             ]
