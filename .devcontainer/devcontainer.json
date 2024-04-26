@@ -1,0 +1,17 @@
+{
+    "name": "Python and Jupyter",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": { "VARIANT": "3" }
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // python
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+} 
