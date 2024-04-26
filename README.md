@@ -14,13 +14,9 @@ GitHub Codespaces allows you to spin up a fully configured development environme
 
 1. Click on the "Code" button and select "Open with Codespaces".
 2. GitHub will create a new Codespace for you and launch it in your browser.
-3. Once the Codespace is ready, create a vritual environment:
-   ```bash
-   $ python3 -m venv venv
-   ```
-   - OR by pressing control + shift + p, then type "Python", you should see an option to create a virtual environment, then choose desired version of python interpretor.
-   - you can check the box for requirements.txt, after selecting your interpretor, or just press "OK" and run the pip command after the venv is set up
-5. Go to either `Test1, Test2 or Test3` and run the desired Jupyter notebook.
+3. Once the Codespace is ready, it will install the necessary extensions and requirements automatically. 
+5. Go to either `Test1.ipynb, Test2.ipynb or Test3.ipynb` and run the desired Jupyter notebook.
+   - it will ask you to choose your kernel, select python and choose your python version.
 
 ## Contents
 - `data/`: Contains the dataset files.
