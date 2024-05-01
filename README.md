@@ -15,11 +15,12 @@ GitHub Codespaces allows you to spin up a fully configured development environme
 
 1. Click on the "Code" button and select "Create codespace on main".
 2. GitHub will create a new Codespace for you and launch it in your browser.
-3. Once the Codespace is ready, it will install the necessary extensions and requirements automatically. 
-5. Go to either `Test1.ipynb`, `Test2.ipynb` or `Test3.ipynb` and click 'Run all' to run the desired Jupyter notebook.
-   - it will ask you to choose your kernel, so, select python environments and choose your python version (probably go with recommended).
+3. Once the Codespace is ready, it will install the necessary extensions and requirements automatically.
+   - it will take a few moments for the requirements to be installed.
+4. Go to either `Test1.ipynb`, `Test2.ipynb` or `Test3.ipynb` and click 'Run all' to run the desired Jupyter notebook.
+   - it will ask you to choose your kernel (if this is the first time the notebook is ran), so, select "python environments" and choose your python version (probably go with recommended).
   
-6. See produced results and diagrams. Thank you for viewing my project repo!
+5. See produced results and diagrams. Thank you for viewing my project repo!
 
 # Contents
 - `data/`: Contains the dataset files.
