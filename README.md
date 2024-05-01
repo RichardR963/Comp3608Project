@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 # Usage with GitHub Codespaces
 GitHub Codespaces allows you to spin up a fully configured development environment directly within your browser, making it easy to run Jupyter notebooks without any local setup. Here's how to use GitHub Codespaces with this repository:
 
-1. Click on the "Code" button and select "Open with Codespaces".
+1. Click on the "Code" button and select "Create codespace on main".
 2. GitHub will create a new Codespace for you and launch it in your browser.
 3. Once the Codespace is ready, it will install the necessary extensions and requirements automatically. 
 5. Go to either `Test1.ipynb`, `Test2.ipynb` or `Test3.ipynb` and click 'Run all' to run the desired Jupyter notebook.
